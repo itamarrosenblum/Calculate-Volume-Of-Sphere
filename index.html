@@ -1,0 +1,57 @@
+<!--
+* Purpose: Main HTML File
+* Author: Itamar Rosenblum
+* Date: 24-12-2020
+* Last modified: 13-02-2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate a Volume of Sphere</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Input radius value and get the volume of a sphere.</h1>
+            </div>
+        </div>
+
+        <!-- Form section -->
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <label for="radius" class="--label">Radius</label>
+                    <input type="text" class="form-control" name="radius" id="radius" placeholder="Enter your radius">
+
+                    <label class="--label">Volume</label>
+                    <span id="volume" class="--span">Your value</span>
+
+                    <button type="button" class="btn btn-primary" onclick="cal()">Calculate</button>
+                </form>
+            </div>
+
+            <!-- Canvas section -->
+            <div class="col-6">
+                <h2>Drawing in canvas!</h2>
+                <canvas id="canvas" class="border rounded" width="500" height="500"></canvas>
+                <div class="col"><button type="button" class="btn btn-primary" onclick="resetCanvas()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
