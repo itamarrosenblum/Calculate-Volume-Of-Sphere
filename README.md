@@ -9,7 +9,7 @@
 * Bootstrap
 
 ## Description 📝
-JavaScript program that calculates the volume of a sphere and drawing the result on HTML canvas.
+JavaScript program that calculates a volume of a sphere and drawing the result on HTML canvas.
 
 ## Demonstration 🤹‍♂️
 <img src="https://s2.gifyu.com/images/ezgif-3-b4d8e0409e74.gif" alt="Calculate Volume of Sphere">
