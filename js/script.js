@@ -53,7 +53,7 @@ function resetCanvas() {
 // Auto calculation
 (function autoCal() {
     // setInterval
-    let autoDrawing = setInterval(function(){ 
+    let autoDrawing = setInterval(() => { 
         // setting the canvas
         const canvas = document.getElementById("canvas");
         const ctx = canvas.getContext("2d");
